@@ -34,10 +34,11 @@ input {
   margin-bottom: 15px;
 }
 
-.botones {
+.botones{
   display: flex;
   justify-content: space-between;
   gap: 10px;
+  margin-bottom: 20px;
 }
 
 .botones button {
@@ -55,3 +56,30 @@ input {
   background-color: #45a049;
 }
 
+#botonEliminarPosicion {
+  width: 100%;
+  padding: 10px;
+  background-color: #d9534f;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-bottom: 15px;
+}
+
+#botonEliminarPosicion:hover {
+  background-color: #c9302c;
+}
+
+#mensaje {
+  font-weight: bold;
+  color: #555;
+  min-height: 24px;
+}
+
+#botones2 {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 4px;
+}
